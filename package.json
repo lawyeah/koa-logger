@@ -1,10 +1,11 @@
 {
   "name": "@lawyeah/koa-logger",
   "description": "Logging middleware for koa",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "lint": "xo",
