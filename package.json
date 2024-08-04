@@ -1,7 +1,7 @@
 {
-  "name": "koa-logger",
+  "name": "@lawyeah/koa-logger",
   "description": "Logging middleware for koa",
-  "version": "3.2.1",
+  "version": "1.0.0",
   "main": "index.js",
   "files": [
     "index.js"
@@ -11,9 +11,7 @@
     "pretest": "npm run lint",
     "test": "mocha --exit",
     "precoverage": "rimraf .nyc_output coverage",
-    "coverage": "nyc npm run test",
-    "preci": "echo start CI ........",
-    "ci": "npm run coverage"
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
@@ -39,6 +37,7 @@
   "devDependencies": {
     "boom": "^7.3.0",
     "chai": "^4.2.0",
+    "clean-pkg-json": "^1.2.0",
     "eslint-config-xo-lass": "^1.0.3",
     "koa": "^2.12.1",
     "koa-compress": "^4.0.1",
@@ -71,7 +70,7 @@
       "no-prototype-builtins": "off",
       "prefer-rest-params": "off",
       "max-params": "off",
-      "no-eq-null" : "off",
+      "no-eq-null": "off",
       "eqeqeq": "off"
     }
   },
