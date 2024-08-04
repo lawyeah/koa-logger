@@ -4,6 +4,7 @@ pwd
 mkdir -p npmpkg
 rm -rf npmpkg/*
 cp index.js npmpkg
+cp index.d.ts npmpkg
 cp package.json package.save
 npx clean-pkg-json
 mv package.json npmpkg
