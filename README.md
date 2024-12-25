@@ -1,8 +1,5 @@
 
-# koa-logger
-
-[![npm version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+# @lawyeah/koa-logger
 
  Development style logger middleware for [koa](https://github.com/koajs/koa).  Compatible with [request-received](https://github.com/cabinjs/request-received).
 
@@ -22,13 +19,13 @@ ___Notice: `koa-logger@2` supports `koa@2`; if you want to use this module with 
 ## Installation
 
 ```js
-$ npm install koa-logger
+$ npm install @lawyeah/koa-logger
 ```
 
 ## Example
 
 ```js
-const logger = require('koa-logger')
+const logger = require('@lawyeah/koa-logger')
 const Koa = require('koa')
 
 const app = new Koa()
@@ -43,7 +40,7 @@ app.use(logger())
 ## Use Custom Transporter
 
 ```js
-const logger = require('koa-logger')
+const logger = require('@lawyeah/koa-logger')
 const Koa = require('koa')
 
 const app = new Koa()
@@ -67,8 +64,3 @@ app.use(logger({
 ## License
 
   MIT
-
-[npm-image]: https://img.shields.io/npm/v/koa-logger.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/koa-logger
-[travis-image]: https://img.shields.io/travis/koajs/logger.svg?style=flat-square
-[travis-url]: https://travis-ci.org/koajs/logger

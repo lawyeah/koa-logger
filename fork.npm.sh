@@ -3,6 +3,7 @@
 pwd
 mkdir -p npmpkg
 rm -rf npmpkg/*
+cp README.md npmpkg
 cp index.js npmpkg
 cp index.d.ts npmpkg
 cp package.json package.save
